@@ -1,8 +1,9 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: yellowgreen;
   font-family: 'Oxygen', sans-serif;
+      background-color: yellowgreen;
+  color:  black;
 }
 
 /** HEADER **/
@@ -60,6 +61,7 @@ body {
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 2px solid black;
 }
+
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -60px;
@@ -68,10 +70,34 @@ body {
 
 /* HOME PAGE */
 
-#main-text {
-  height: 1000px;
-  width: 100%;
+h2 {
+  font-weight: bold;
 }
+
+#main-content {
+  width: 100%;
+  border-bottom: 20px;
+}
+
+#main-text {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+#menus {
+  width:  90%;
+  background-color: greenyellow;
+  overflow: hidden;
+  border-bottom: 20px;
+}
+
+#menus h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
 
 /* END HOME PAGE */
 
