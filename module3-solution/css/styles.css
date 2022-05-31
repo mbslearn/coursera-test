@@ -76,7 +76,7 @@ h2 {
 
 #main-content {
   width: 100%;
-  border-bottom: 20px;
+  margin-bottom: 20px;
   color:  black;
 }
 
@@ -91,7 +91,6 @@ h2 {
   width:  90%;
   background-color: greenyellow;
   overflow: hidden;
-  border-bottom: 20px;
   color:  black;
 }
 
@@ -100,6 +99,9 @@ h3 {
   font-weight: bold;
 }
 
+#menus p {
+  margin-bottom: 50px;
+}
 
 /* END HOME PAGE */
 
